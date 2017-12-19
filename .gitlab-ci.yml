@@ -1,0 +1,23 @@
+stages:
+  - build
+  - test
+  - deploy
+
+before_script:
+  - npm i
+
+project-build:
+  stage: build
+  script:
+  - echo "build"
+
+
+project-test:
+  stage: test
+  script:
+  - npm test
+
+project-deploy:
+  stage: deploy
+  script:
+  - echo "deploy"
