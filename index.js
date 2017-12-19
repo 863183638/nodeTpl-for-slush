@@ -1,1 +1,1 @@
-console.log('默认的模板仓库');
+console.log('自定义的模板仓库2');
